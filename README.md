@@ -15,6 +15,14 @@ The main objectives were:
 - Understand sales distribution by payment method and sales type
 - The project focuses on clean data modeling, logical report structure, and business clarity rather than complex DAX logic because I had clear small dataset. The goal was to simulate a practical management dashboard used for operational monitoring and performance evaluation.
 
+## 📑 Table of Content
+- [Data Source](#-data-source)
+- [Tools & Technologies](#-tools--technologies)
+- [Data Preparation & Modeling](#-data-preparation--modeling)
+- [ER Diagram](#-er-diagram)
+- [Exploratory Business Analysis (Power BI)](#-exploratory-business-analysis-power-bi)
+- [Business Insights & Conclusions](#-business-insights--conclusions)
+- [Business Recommendations](#-business-recommendations)
 
 
 ## 📊 Data Source
