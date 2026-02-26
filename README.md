@@ -130,6 +130,33 @@ The relationship ensures consistent product information across transactions and 
 ![er_diagram](./images/er_diagram.png)
 
 
+## 📊 Exploratory Business Analysis (Power BI)
+
+This dashboard was designed to simulate a management-level performance reporting environment based on two years of supermarket sales data (2021–2022).
+The analysis focuses on identifying revenue drivers, profitability structure, and operational patterns.
+
+
+
+🔎 Analytical Scope
+
+- KPI monitoring (Total Sales, Total Profit, Profit %)
+- Year-over-Year comparison (2021 vs 2022)
+- Monthly revenue and margin trend analysis
+- Daily sales volatility assessment
+- Product level performance ranking
+- Category revenue concentration
+- Sales type contribution
+- Payment mode structure
+
+💡 Analytical Insights
+
+- The business generated 401K in revenue with a 21% profit margin, indicating stable cost control relative to selling price.
+- Sales performance remains structurally consistent across months, with stronger results in the later periods, suggesting seasonal uplift.
+- Revenue concentration is visible at product level, where a limited number of SKUs drive a significant share of total sales, indicating dependency risk and potential portfolio optimization opportunity.
+- Category contribution analysis shows revenue clustering in selected segments, supporting targeted assortment strategies.
+- Sales type distribution highlights operational reliance on Direct Sales.
+- Payment structure is balanced between Online and Cash, reducing channel concentration risk and increasing operational flexibility.
+- Daily sales variability remains within a controlled range, suggesting stable demand without extreme spikes or operational stress.
 
 
 
