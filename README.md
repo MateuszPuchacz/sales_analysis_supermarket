@@ -135,7 +135,9 @@ The relationship ensures consistent product information across transactions and 
 This dashboard was designed to simulate a management-level performance reporting environment based on two years of supermarket sales data (2021–2022).
 The analysis focuses on identifying revenue drivers, profitability structure, and operational patterns.
 
+🧾 Sales Overview
 
+![supermarket_dashboard](./images/supermarket_dashboard.png)
 
 🔎 Analytical Scope
 
