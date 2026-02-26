@@ -127,7 +127,7 @@ The data model consists of two tables connected by a one-to-many relationship.
 MasterData stores product details (category, prices, UOM), while InputData contains transactional sales records.
 The relationship ensures consistent product information across transactions and supports accurate sales and profit analysis.
 
-![ER_Diagram](./images/ER_Diagram.png)
+![er_diagram](./images/er_diagram.png)
 
 
 
