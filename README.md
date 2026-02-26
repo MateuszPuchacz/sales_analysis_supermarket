@@ -98,11 +98,11 @@ Data type verification:
 The objective was to ensure accurate and well-structured input data before developing the relational model and few DAX calculations in Power BI.
 
 
-**Power BI**
+**Power BI – Data Transformation & Analytical Modeling**
 
 Instead of creating a separate Date Table in DAX, time-related attributes were derived directly from the existing Date column to enable period-based analysis in visuals and slicers.
 
-Created date attributes:
+Created date attributes (Power Query):
 
 Year
 Month (number)
@@ -114,11 +114,14 @@ This approach provided the necessary time context for filtering and trend analys
 Core DAX Calculations (KPIs & Profitability)
 
 Basic financial measures were created in DAX to support revenue, cost, and margin reporting:
-
+```
 - Total Buying Value = QUANTITY * MasterData.BUYING PRIZE
 - Total Selling Value = QUANTITY * MasterData.SELLING PRICE * (1 - DISCOUNT %)
 - Profit = Total Selling Value - Total Buying Value
 - Profit % = Profit / Total Buying Value
+```
+
+
 
 
 
