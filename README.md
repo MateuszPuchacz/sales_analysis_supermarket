@@ -4,14 +4,14 @@ Power BI sales performance dashboard based on two years of supermarket sales dat
 
 ## 🎯 Project Goal
 
-The goal of this project was to build a clear and business-focused Power BI sales dashboard based on two years of supermarket data (2021–2022).
+The goal of this project was to build a clear and business focused Power BI sales dashboard based on two years of supermarket data (2021–2022).
 
 The main objectives were:
 
 - Monitor core KPIs such as Total Sales, Total Profit, and Profit %
 - Compare performance between 2021 and 2022
 - Analyze monthly and daily sales trends
-- Identify top-performing products and categories
+- Identify top performing products and categories
 - Understand sales distribution by payment method and sales type
 - The project focuses on clean data modeling, logical report structure, and business clarity rather than complex DAX logic because I had clear small dataset. The goal was to simulate a practical management dashboard used for operational monitoring and performance evaluation.
 
