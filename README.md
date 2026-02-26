@@ -112,7 +112,6 @@ Day (day of month)
 This approach provided the necessary time context for filtering and trend analysis without adding an additional calendar table.
 
 Core DAX Calculations (KPIs & Profitability)
-
 Basic financial measures were created in DAX to support revenue, cost, and margin reporting:
 ```
 - Total Buying Value = QUANTITY * MasterData.BUYING PRIZE
@@ -120,6 +119,18 @@ Basic financial measures were created in DAX to support revenue, cost, and margi
 - Profit = Total Selling Value - Total Buying Value
 - Profit % = Profit / Total Buying Value
 ```
+
+
+## 🔗 ER Diagram
+
+The data model consists of two tables connected by a one-to-many relationship.
+MasterData stores product details (category, prices, UOM), while InputData contains transactional sales records.
+The relationship ensures consistent product information across transactions and supports accurate sales and profit analysis.
+
+![ER_Diagram](./images/ER_Diagram.png)
+
+
+
 
 
 
