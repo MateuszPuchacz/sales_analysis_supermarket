@@ -71,7 +71,7 @@ Key fields:
 This table enables:
 
 - Product performance ranking
-- Category - level aggregation
+- Category level aggregation
 - Top product and top category analysis
 - Tree map visualization and segmentation
 
