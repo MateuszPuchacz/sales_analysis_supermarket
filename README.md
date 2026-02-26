@@ -162,9 +162,28 @@ The analysis focuses on identifying revenue drivers, profitability structure, an
 
 
 
+##📝 Business Insights & Conclusions
 
+- The supermarket generated in 2 years 401K in total sales with 69K total profit, resulting in a 21% profit margin, indicating a healthy and controlled profitability structure.
+- Sales performance remains relatively stable throughout , with visible monthly consistency and moderate fluctuations.
+- Profit follows revenue trends proportionally, suggesting stable cost control and pricing discipline.
+- Revenue concentration is visible within a limited number of top-performing products, indicating partial dependency on key SKUs.
+- Category04 and Category02 dominate overall contribution, representing the largest share of revenue within the portfolio.
+- Sales Type distribution shows that Direct Sales account for the majority (52%), highlighting a structurally centralized selling model.
+- Payment Mode is almost evenly split between Online and Cash, indicating balanced channel behavior and low dependency risk.
+- Daily sales patterns show natural volatility but no structural decline, suggesting stable operational demand.
 
+Strategic Interpretation:
 
+- The business demonstrates a balanced revenue structure with controlled margin performance.
+- Sales are moderately concentrated across specific categories and products, which supports scale efficiency but may increase exposure risk.
+- The model appears volume-driven with stable operational consisten
 
+##💼 Business Recommendations
 
+- Diversify product portfolio contribution to reduce dependency on top SKUs.
+- Strengthen high-performing categories (Category04, Category02) through targeted assortment expansion.
+- Maintain balanced online and cash payment strategy to preserve channel flexibility.
+- Introduce targeted promotions in lower-performing months to smooth seasonal volatility.
+- Explore upselling and cross-selling strategies within top categories to improve margin beyond 21%.
 
