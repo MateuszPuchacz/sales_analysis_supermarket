@@ -79,9 +79,46 @@ Designed and implemented a relational data model (star schema approach), develop
 Generated visual branding assets (logo) for portfolio presentation purposes.
 
 
+## 🧱🧹 Data Preparation & Modeling
+
+**Excel – Data Quality Checks**
+
+Before importing the dataset into Power BI, an initial validation step was carried out in Excel to review the structure and completeness of the data.
+The following checks were performed:
+Identification of missing values in key fields (Order Date, Total Selling Value, Total Buying Value, Quantity, Sales Type, Payment Mode).
+
+Data type verification:
+
+- Order Date formatted as Date
+- Total Selling Value and Total Buying Value set as Decimal Number
+- Quantity defined as Whole Number
+- Order ID and Product ID stored as Text
+- Logical consistency validation performed (no negative quantities, no inconsistencies between selling and buying values)
+
+The objective was to ensure accurate and well-structured input data before developing the relational model and few DAX calculations in Power BI.
 
 
+**Power BI**
 
+Instead of creating a separate Date Table in DAX, time-related attributes were derived directly from the existing Date column to enable period-based analysis in visuals and slicers.
+
+Created date attributes:
+
+Year
+Month (number)
+Month Name
+Day (day of month)
+
+This approach provided the necessary time context for filtering and trend analysis without adding an additional calendar table.
+
+Core DAX Calculations (KPIs & Profitability)
+
+Basic financial measures were created in DAX to support revenue, cost, and margin reporting:
+
+- Total Buying Value = QUANTITY * MasterData.BUYING PRIZE
+- Total Selling Value = QUANTITY * MasterData.SELLING PRICE * (1 - DISCOUNT %)
+- Profit = Total Selling Value - Total Buying Value
+- Profit % = Profit / Total Buying Value
 
 
 
