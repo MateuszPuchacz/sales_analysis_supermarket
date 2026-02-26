@@ -1,2 +1,90 @@
 # sales_analysis_supermarket
 Power BI sales performance dashboard based on two years of supermarket sales data, integrating custom data modeling, DAX measures, product level performance tracking, and profitability analysis within an interactive BI environment.
+
+
+## 🎯 Project Goal
+
+The goal of this project was to build a clear and business-focused Power BI sales dashboard based on two years of supermarket data (2021–2022).
+
+The main objectives were:
+
+- Monitor core KPIs such as Total Sales, Total Profit, and Profit %
+- Compare performance between 2021 and 2022
+- Analyze monthly and daily sales trends
+- Identify top-performing products and categories
+- Understand sales distribution by payment method and sales type
+- The project focuses on clean data modeling, logical report structure, and business clarity rather than complex DAX logic because I had clear small dataset. The goal was to simulate a practical management dashboard used for operational monitoring and performance evaluation.
+
+
+
+## 📊 Data Source
+
+The dataset used in this project was simulated for educational and portfolio purposes.
+It does not represent real company data.
+
+The dataset consists of two primary tables: a transactional sales table and a product/category dimension table. 
+It was synthetically generated to simulate a supermarket retail environment covering two years of operations.
+
+
+## Sales (Fact Table)
+
+Contains transaction-level sales records.
+Each row represents a single sales transaction.
+
+Key fields:
+
+- Order ID – unique transaction identifier
+- Order Date – transaction date
+- Year – sales year (2021–2022)
+- Month Name – month of transaction
+- Sales Type – type of sale (Direct Sales)
+- Payment Mode – payment method (Cash, Online)
+- Product ID – product reference key
+- Quantity – number of units sold
+- Unit Price – selling price per unit
+- Unit Cost – cost per unit
+- Total Selling Value – total revenue per transaction
+- Total Buying Value – total cost per transaction
+
+
+This table serves as the analytical core for revenue, cost, profit, margin calculations, and time based analysis.
+
+## Product (Dimension Table)
+
+Contains descriptive product and category information.
+Each row represents a unique product.
+
+Key fields:
+
+- Product ID – unique product identifier
+- Product Name – product label used in reporting
+- Category – product category classification
+
+This table enables:
+
+- Product performance ranking
+- Category - level aggregation
+- Top product and top category analysis
+- Tree map visualization and segmentation
+
+## 🛠 Tools & Technologies
+
+**Excel**
+Performed structured data validation, integrity checks, and preliminary preparation to ensure analytical readiness before integration into the BI model.
+
+**Power BI**
+Designed and implemented a relational data model (star schema approach), developed DAX measures for profitability and KPI tracking, and built an interactive executive level dashboard supporting performance analysis and decision making.
+
+**AI Assisted Design (ChatGPT)**  
+Generated visual branding assets (logo) for portfolio presentation purposes.
+
+
+
+
+
+
+
+
+
+
+
