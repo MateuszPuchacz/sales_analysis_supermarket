@@ -103,12 +103,12 @@ Data type verification:
 - Order ID and Product ID stored as Text
 - Logical consistency validation performed (no negative quantities, no inconsistencies between selling and buying values)
 
-The objective was to ensure accurate and well-structured input data before developing the relational model and few DAX calculations in Power BI.
+The objective was to ensure accurate and well structured input data before developing the relational model and few DAX calculations in Power BI.
 
 
 **Power BI – Data Transformation & Analytical Modeling**
 
-Instead of creating a separate Date Table in DAX, time-related attributes were derived directly from the existing Date column to enable period-based analysis in visuals and slicers.
+Instead of creating a separate Date Table in DAX, time related attributes were derived directly from the existing Date column to enable period-based analysis in visuals and slicers.
 
 Created date attributes (Power Query):
 
@@ -131,7 +131,7 @@ Basic financial measures were created in DAX to support revenue, cost, and margi
 
 ## 🔗 ER Diagram
 
-The data model consists of two tables connected by a one-to-many relationship.
+The data model consists of two tables connected by a one to many relationship.
 MasterData stores product details (category, prices, UOM), while InputData contains transactional sales records.
 The relationship ensures consistent product information across transactions and supports accurate sales and profit analysis.
 
@@ -140,7 +140,7 @@ The relationship ensures consistent product information across transactions and 
 
 ## 📊 Exploratory Business Analysis (Power BI)
 
-This dashboard was designed to simulate a management-level performance reporting environment based on two years of supermarket sales data (2021–2022).
+This dashboard was designed to simulate a management level performance reporting environment based on two years of supermarket sales data (2021–2022).
 The analysis focuses on identifying revenue drivers, profitability structure, and operational patterns.
 
 🧾 Sales Overview
